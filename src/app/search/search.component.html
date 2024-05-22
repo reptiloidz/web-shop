@@ -1,0 +1,11 @@
+<div *ngIf="isSearchActive" class="search-modal">
+    <div class="search-content">
+       <button (click)="closeSearch()" class="close-button">✖</button>
+       <div class="d-flex gap-15 al-t-c">
+        <p class="search-content__text text text--black">Что ищете?</p>
+        <input type="text" class="search-input" placeholder="Type to search..." />
+        <button class="search-content__button">Поиск</button>
+        </div>
+    </div>
+</div>
+

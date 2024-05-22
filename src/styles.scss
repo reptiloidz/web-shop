@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+p,h1{
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.al-t-c{
+    align-items: center;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.text {
+    font-size: 18px;
+
+    &--gray {
+        color: #939393;
+    }
+
+    &--small {
+        font-size: 16px;
+    }
+
+    &--xl {
+        font-size: 20px;
+    }
+    &--black{
+        color: black;
+    }
+}
